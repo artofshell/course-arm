@@ -5,7 +5,7 @@
       
   },
   "variables": {
-      "GitHub": "https://raw.githubusercontent.com",
+      "GitHub": "https://raw.githubusercontent.com/",
       "Organization": "artofshell",
       "Repository": "course-arm"
   },
