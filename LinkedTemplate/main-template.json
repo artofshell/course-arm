@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+      
+  },
+  "variables": {
+      "GitHub": "https://github.com/",
+      "Organization": "artofshell",
+      "Repository": "course-arm"
+  },
+  "resources": [
+      {
+          "type": "Microsoft.Resources/deployments",
+          "apiVersion": "2015-01-01",
+          "name": "Storage",
+          "properties": {
+              "mode": "Incremental",
+              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/LinkedTemplate/child-storage.json')]"
+          }
+      },
+      {
+          "type": "Microsoft.Resources/deployments",
+          "apiVersion": "2015-01-01",
+          "name": "Network",
+          "properties": {
+              "mode": "Incremental",
+              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/LinkedTemplate/child-network.json')]"
+          }
+      },
+      {
+          "type": "Microsoft.Resources/deployments",
+          "apiVersion": "2015-01-01",
+          "name": "NetworkInterface",
+          "properties": {
+              "mode": "Incremental",
+              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/LinkedTemplate/child-networkinterface.json')]"
+          }
+      }
+  ]
+}
