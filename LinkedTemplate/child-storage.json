@@ -12,12 +12,8 @@
           "type": "Microsoft.Storage/storageAccounts",
           "apiVersion": "2015-06-15",
           "location": "West US",
-          "name": "[concat('artofshell', copyIndex())]",
-          "copy": {
-              "count": 3,
-              "name": "StorageCopy"
-          },
-          "properties": {
+          "name": "[concat('artofshell')]",
+          "properties": {              
               "accountType": "Standard_LRS"
           }
       }
