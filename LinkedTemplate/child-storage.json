@@ -12,9 +12,10 @@
           "type": "Microsoft.Storage/storageAccounts",
           "apiVersion": "2015-06-15",
           "location": "West US",
-          "name": "artofshell",
+          "name": "[concat('artofshell', copyIndex())]",
           "copy": {
-              "count": 3
+              "count": 3,
+              "name": "StorageCopy"
           },
           "properties": {
               "accountType": "Standard_LRS"

@@ -28,7 +28,7 @@ $Deployment = @{
     TemplateParameterObject = @{
         };
     TemplateFile = '{0}\main-template.json' -f $PSScriptRoot;
-    Name = 'LinkedTemplate';
+    #Name = 'LinkedTemplate';
     Force = $true;
     };
 

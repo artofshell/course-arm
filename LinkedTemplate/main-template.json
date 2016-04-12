@@ -16,25 +16,10 @@
           "name": "Storage",
           "properties": {
               "mode": "Incremental",
-              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/master/LinkedTemplate/child-storage.json')]"
-          }
-      },
-      {
-          "type": "Microsoft.Resources/deployments",
-          "apiVersion": "2015-01-01",
-          "name": "Network",
-          "properties": {
-              "mode": "Incremental",
-              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/master/LinkedTemplate/child-network.json')]"
-          }
-      },
-      {
-          "type": "Microsoft.Resources/deployments",
-          "apiVersion": "2015-01-01",
-          "name": "NetworkInterface",
-          "properties": {
-              "mode": "Incremental",
-              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/master/inkedTemplate/child-networkinterface.json')]"
+              /* https://raw.githubusercontent.com/artofshell/course-arm/master/LinkedTemplate/main-template.json */
+              "templateLink": {
+                  "uri": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/master/LinkedTemplate/child-storage.json')]"
+              }
           }
       }
   ]
