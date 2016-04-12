@@ -5,7 +5,7 @@
       
   },
   "variables": {
-      "GitHub": "https://github.com/",
+      "GitHub": "https://raw.githubusercontent.com",
       "Organization": "artofshell",
       "Repository": "course-arm"
   },
@@ -16,7 +16,7 @@
           "name": "Storage",
           "properties": {
               "mode": "Incremental",
-              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/raw/master/LinkedTemplate/child-storage.json')]"
+              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/master/LinkedTemplate/child-storage.json')]"
           }
       },
       {
@@ -25,7 +25,7 @@
           "name": "Network",
           "properties": {
               "mode": "Incremental",
-              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/raw/master/LinkedTemplate/child-network.json')]"
+              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/master/LinkedTemplate/child-network.json')]"
           }
       },
       {
@@ -34,7 +34,7 @@
           "name": "NetworkInterface",
           "properties": {
               "mode": "Incremental",
-              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/raw/master/inkedTemplate/child-networkinterface.json')]"
+              "templateLink": "[concat(variables('GitHub'), variables('Organization'), '/', variables('Repository'), '/master/inkedTemplate/child-networkinterface.json')]"
           }
       }
   ]
