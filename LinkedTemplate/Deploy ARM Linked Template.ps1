@@ -40,5 +40,5 @@ Get-AzureRmResourceGroupDeployment -ResourceGroupName $Deployment.ResourceGroupN
 #endregion
 
 #region Delete Resource Group
-Remove-AzureRmResourceGroup -Name $ResourceGroup.Name -Force;
+#Remove-AzureRmResourceGroup -Name $ResourceGroup.Name -Force;
 #endregion 
