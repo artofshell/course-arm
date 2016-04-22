@@ -1,0 +1,15 @@
+{
+  "if" : {
+    "not" : {
+      "anyOf" : [
+        {
+          "field" : "type",
+          "eq" : "Microsoft.Storage/storageAccounts"
+        }
+      ]
+    }
+  },
+  "then" : {
+    "effect" : "deny"
+  }
+}
