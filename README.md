@@ -1,10 +1,12 @@
-This GitHub repository correlates to the Microsoft Azure Resource Manager (ARM) course from Art of Shell.
+# Training Course: Microsoft Azure Resource Manager
 
-# About This Course
+This GitHub repository correlates to the [Microsoft Azure Resource Manager (ARM)](https://artofshell.com/services/microsoft-azure-training) course from [Art of Shell](https://artofshell.com).
 
-This video-based training course from Art of Shell is packed with information about the Microsoft Azure Resource Manager (ARM) interface! This is an essential topic for anyone who’s leveraging Microsoft Azure services, because ARM is the service used for deployment and management of cloud resources.
+## About This Course
 
-[Click here to purchase the course!](https://checkout.trychec.com/azure-arm)
+This video-based training course from [Art of Shell](https://artofshell.com) is packed with information about the Microsoft Azure Resource Manager (ARM) interface! This is an essential topic for anyone who’s leveraging Microsoft Azure services, because ARM is the service used for deployment and management of cloud resources.
+
+[Click here to purchase the course directly!](https://checkout.trychec.com/azure-arm)
 
 Course Length: **100 minutes**
 
