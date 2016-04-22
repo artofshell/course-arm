@@ -1,10 +1,14 @@
 This GitHub repository correlates to the Microsoft Azure Resource Manager (ARM) course from Art of Shell.
 
+# About This Course
+
 This video-based training course from Art of Shell is packed with information about the Microsoft Azure Resource Manager (ARM) interface! This is an essential topic for anyone who’s leveraging Microsoft Azure services, because ARM is the service used for deployment and management of cloud resources.
 
 [Click here to purchase the course!](https://checkout.trychec.com/azure-arm)
 
 Course Length: **100 minutes**
+
+## Course Outline
 
 During this course, you’ll learn:
 
@@ -22,14 +26,14 @@ During this course, you’ll learn:
   - Leverage ARM PowerShell to automate deployment and management of cloud resources
   - Cross-Platform (xPlat) automation – deploy and manage resources consistently on Linux, Mac, and Windows
   
-  ## About Art of Shell
+## About Art of Shell
   
-  Art of Shell is committed to making its customers' lives easier through cloud, software, and automation services and training.
+Art of Shell is committed to making its customers' lives easier through cloud, software, and automation services and training.
+ 
+Find us online!
   
-  Find us online!
-  
-  - Official Website: https://artofshell.com
-  - GitHub: https://github.com/artofshell
-  - Twitter: https://twitter.com/artofshell
-  - Facebook: https://facebook.com/artofshell
-  - YouTube: https://youtube.com/artofshellllc
+- Official Website: https://artofshell.com
+- GitHub: https://github.com/artofshell
+- Twitter: https://twitter.com/artofshell
+- Facebook: https://facebook.com/artofshell
+- YouTube: https://youtube.com/artofshellllc
